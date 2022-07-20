@@ -5,14 +5,14 @@ export default function NavBar() {
   return (
     <div>
         <nav>
-
+{/* 
           <a href=''>Home</a>
           <a href=''>About Us</a>
-          <a href=''>Connect</a>
+          <a href=''>Connect</a> */}
   
-          {/* <NavLink to="/" exact>Home</NavLink>
+          <NavLink to="/" exact>Home</NavLink>
           <NavLink to="/about" exact>About Us</NavLink>
-          <NavLink to="/connect" exact>Connect</NavLink> */}
+          <NavLink to="/connect" exact>Connect</NavLink>
          </nav>
     </div>
   )

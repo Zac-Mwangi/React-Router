@@ -10,15 +10,15 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Home />
+      {/* <Home />
       <AboutUs/>
-      <Connect />
+      <Connect /> */}
 
-      {/* <Routes>
+      <Routes>
           <Route path="/about" element={<AboutUs />}/>
           <Route path="/connect" element={<Connect />}/>
           <Route path="/" element={<Home />}/>
-      </Routes> */}
+      </Routes>
       
     </div>
   );
