@@ -10,18 +10,61 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      {/* <Home />
+      <Home />
       <AboutUs/>
-      <Connect /> */}
-
-      <Routes>
-          <Route path="/about" element={<AboutUs />}/>
-          <Route path="/connect" element={<Connect />}/>
-          <Route path="/" element={<Home />}/>
-      </Routes>
-      
+      <Connect />     
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {/* <Routes>
+          <Route path="/about" element={<AboutUs />}/>
+          <Route path="/connect" element={<Connect />}/>
+          <Route path="/" element={<Home />}/>
+      </Routes> */}
