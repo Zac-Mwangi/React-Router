@@ -6,7 +6,7 @@ export default function NavBar() {
     <div>
         <nav>
 
-          <a href=''>Home</a>
+          <a href=''>Home </a>
           <a href=''>About Us</a>
           <a href=''>Connect</a>
          </nav>
