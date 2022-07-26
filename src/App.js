@@ -1,18 +1,28 @@
 import './App.css';
 import AboutUs from './components/AboutUs';
-import NavBar from './components/NavBar';
+// import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Connect from './components/Connect';
+import Error from './components/Error';
 
 import {Route, Routes} from "react-router-dom"
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      {/* <NavBar/>
       <Home />
       <AboutUs/>
-      <Connect />     
+      <Connect />   */}
+
+      <NavBar/>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/about' element={<AboutUs/>}/>
+        <Route exact path='/connect' element={<Connect/>}/>
+        <Route exact path='*' element={<Error/>}/>
+      </Routes>   
     </div>
   );
 }
